@@ -70,3 +70,31 @@ body{
 .form input:hover {
     cursor: default;
 }
+
+@media (max-width:1170px){
+    .form{
+        width:100%
+    }
+    .form input {
+        width:80%;
+    }
+}
+
+@media (max-width:660px){
+    #logo , .login h3{
+        visibility: hidden;
+    }
+    .login {
+        position:relative;
+        height:240px;
+    }
+    .form {
+        position: absolute;
+        bottom:50px ;
+    }
+    .login button{
+        position: absolute;
+        bottom:30px;
+    }
+
+}
