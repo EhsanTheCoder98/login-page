@@ -8,7 +8,7 @@ body{
 }
 
 .login {
-    background-color: rgb(128, 128, 128);
+    background-color: rgba(128, 128, 128, 0.795);
     margin:200px auto;
     width:30%;
     height:380px;
@@ -65,7 +65,7 @@ body{
     color:black;
 }
 .login button:hover{
-    padding: 11px;
+    cursor: pointer;
 }
 .form input:hover {
     cursor: default;
